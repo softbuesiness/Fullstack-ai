@@ -2,12 +2,6 @@
 
 Build a full stack Next.js app from an AI prompt.
 
-Built by [Elie](https://twitter.com/elie2222). Also check out [Inbox Zero](https://getinboxzero.com), an open source email app to automate your emails and reach inbox zero fast.
-
-## Demo Video
-
-[![Full Stack AI demo](/assets/video-thumbnail.png)](https://youtu.be/DptvWuRfF2M)
-
 ## What It Does
 
 Full Stack AI, `fsai`, is a CLI that uses AI to build a full-stack app for you.
@@ -49,8 +43,6 @@ pnpm i -g fsai
 export OPENAI_API_KEY=...
 fsai gen "Build a clone of Twitter called StackPrompt where people prompt instead of tweet. Allow users to follow one another and to like prompts. Use GitHub for log in. Charge users a monthly fee for premium functionality."
 ```
-
-Under the hood this project uses [Kirimase](https://github.com/nicoalbanese/kirimase).
 
 ## Run locally
 
